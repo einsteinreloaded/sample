@@ -1,0 +1,190 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f2f2f4;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 700px;
+  margin: auto;
+}
+.copy{
+  position: relative;
+  height:600px;
+  background: #e9e9e9;
+}
+.options {
+  position: absolute;
+  bottom: 0px;
+  left: 29%;
+}
+.button {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  padding: 7px 32px;
+  cursor: pointer;
+}
+.orange {
+  background: rgb(236, 99, 5);
+  position: relative;
+}
+.green {
+  background-color: rgb(76, 175, 80);
+}
+input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 13px;
+  cursor: pointer;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+
+}
+.copyurl{
+  margin-top: 50px;
+  color: white;
+  background: darkgrey;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: black;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: #0099CC;
+}
+
+figure {
+  margin: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0
+}
+
+.copy {
+  font-size: 62.5%;
+}
+
+.copy p, .copy pre, .copy ul, .copy dl {
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+
+.copy p.intro {
+  font-size: 1.8em;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.copy h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.copy pre {
+  font-family: monospace;
+  background: #fafafa;
+  padding: 10px 15px;
+  border: 1px solid #e2e2e2;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.copy dt {
+  font-weight: bold;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+#header {
+  background: #222;
+  padding: 30px;
+  text-align: center;
+  font-size: 42px;
+  min-width: 700px;
+  position: relative;
+}
+
+#content {
+  margin: 20px 0 40px;
+}
+
+h1 {
+  font-size: 52px;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  color: #eee;
+}
+
+.hero {
+  font-size: 22px;
+  font-weight: 100;
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.figure-wrapper {
+  text-align: center;
+}
+
+.image-container {
+  display: inline-block;
+  max-width: 100%;
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #e2e2e2;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.image-container.target {
+  /*margin-top: 40px;*/
+}
+
+.image-container img {
+  max-width: 670px;
+  max-height: 570px;
+}
+
+.image-container .image-meta {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: left;
+}
+.image-container .image-meta a {
+  text-decoration: none;
+  color: #444;
+}
+.image-container .image-meta a:hover .image-meta-title {
+  text-decoration: underline;
+}
