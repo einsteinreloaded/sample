@@ -45,6 +45,9 @@ body {
 .green {
   background-color: rgb(76, 175, 80);
 }
+.red {
+  background-color: rgb(255, 0, 0);
+}
 input[type="file"] {
   position: absolute;
   top: 0;

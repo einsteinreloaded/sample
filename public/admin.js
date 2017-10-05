@@ -13,7 +13,7 @@ function appendResults(div, users) {
   for(let user of users) {
     let userDiv = document.createElement('span')
     userDiv.id = user._id
-    userDiv.innerHTML = ` ${user.name} <img src="${user.image}">  <button  onClick=removeUser("${user._id}")> delete </input>`
+    userDiv.innerHTML = ` ${user.name} <img src="${user.image}">  <button class="button red" onClick=removeUser("${user._id}")> delete </input>`
     div.appendChild(userDiv)
   }
 }
